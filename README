@@ -1,0 +1,13 @@
+This is a trivial project useful to determine where the stack, bss, heap,
+code and constants reside for a program running on your platform.
+
+HISTORY
+The original program that I saw doing this was by ozzie ; see the blog 
+blog.ooz.ie
+I fixed a bug to do with setting up a proper BSS.  I also fixed a malloc
+leak.  I then did a re-write of the program because I wanted a nice and
+simple program which would appeal to introductory programmers from a low
+level analysis / assembly analysis point of view.
+
+I hope you enjoy the program!
+	- Faisal Memon.
